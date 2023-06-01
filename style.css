@@ -6,6 +6,7 @@
 body {
     background-color:#383D58;
     color: white;
+    font-family: 'Oswald', sans-serif;
  }
 header{
     background-color: black;
@@ -22,7 +23,7 @@ header{
 .cabecalho-imagem{
     width: 20%;
 }
-
+' '
 .cabecalho-lita-item{
    display: inline-block;
    margin: 0 16px;
