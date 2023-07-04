@@ -8,6 +8,7 @@ body {
     color: white;
     font-family: 'Oswald', sans-serif;
  }
+
 header{
     background-color: black;
     color: white;
@@ -15,15 +16,16 @@ header{
 
 .cabecalho{
     background-color: white;
-    color: blue;
+    color: black;
     display: flex;
     justify-content: space-around;
+    padding: 24px 0;
 }
 
 .cabecalho-imagem{
     width: 20%;
 }
-' '
+
 .cabecalho-lita-item{
    display: inline-block;
    margin: 0 16px;
@@ -39,7 +41,6 @@ header{
      align-items: center;
      padding: 24px 0;
 }
-
 
 .secao1-titulo {
     padding: 24px 0;
