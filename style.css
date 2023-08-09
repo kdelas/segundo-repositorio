@@ -1,3 +1,15 @@
+@import url(/styles/header.css);
+ :root{
+     --cor-principal: blue;
+      --cor-secundaria: lightgray;
+       --cor-terciaria: darkgray;
+        --cor-de-escrita: black;
+
+
+
+}
+     
+     
 * {
     margin: 0;
     padding: 0;
