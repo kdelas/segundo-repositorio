@@ -22,7 +22,6 @@
 }
 
 .container__imagem {
-    width: 10%;
     padding: 1em;
 }
 
@@ -34,16 +33,16 @@
     width: 60vw;
 }
 
-.container__menu:checked~.cabecalho__lista {
+.container__botao:checked~.cabecalho__lista {
     display: block;
 }
 
-.container__menu {
+.container__botao {
     display: none;
 }
 
 .cabecalho-lista-titulo{
-    color: var(--amarelo);
+    color: var(--azul);
 }
 
 .cabecalho-lista-item{
@@ -55,18 +54,11 @@
         color: var(--verde);
     }
 
-
-
-
-
-
-
-
 @media screen and(min-width 1024px) {
     .container-titulo {
         display: block;
         font-family: var(--fonte-principal);
-        font-weight: 300;
+        font-weight: 400;
         font-size: 30px;
     }
 
