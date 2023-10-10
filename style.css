@@ -11,8 +11,8 @@
 }
      
 body {
-    background-color:var(--cor-terciaria)
-    font-family: var(var(--fonte-principal))
+    background-color:var(--cor-terciaria);
+    font-family: var(var(--fonte-principal));
  }
 
 .secao1 {
