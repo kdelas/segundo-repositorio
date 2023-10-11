@@ -33,7 +33,7 @@
 
 .cabecalho-lista {
     display: none;
-    background-color: var(--branco);
+    background-color: var(--azul);
     position: absolute;
     top: 100%;
     width: 50vw;
