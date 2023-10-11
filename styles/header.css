@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background-color: var(--cor-terciaria);
+    background-color: var(--azul);
     position: relative;
     align-items: center;
 }
@@ -86,6 +86,7 @@
         font-family: var(--fonte-principal);
         font-weight: 400;
         font-size: 30px;
+        color: var(--branco);
     }
 
     .cabecalho__menu{
