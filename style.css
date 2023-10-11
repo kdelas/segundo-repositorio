@@ -1,12 +1,13 @@
 @import url(/styles/header.css);
 
  :root{
-     --cor-principal: rgb(255, 255, 255);
-      --cor-secundaria: rgb(255, 255, 255);
-       --cor-terciaria: darkgray;
-        --cor-de-escrita: rgb(255, 255, 255);
-        --fonte-principal: "Oswald"
-        --fonte-secundaria: "Roboto"
+    --cor-principal: rgb(255, 255, 255);
+    --cor-secundaria: rgb(255, 255, 255);
+    --cor-terciaria: darkgray;
+    --cor-de-escrita: rgb(255, 255, 255);
+    --branco:#FFFFFF;
+    --fonte-principal: "Oswald";
+    --fonte-secundaria: "Roboto";
 
 }
      
