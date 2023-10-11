@@ -1,7 +1,7 @@
 .cabecalho {
     display: flex;
     justify-content: space-between;
-    background-color: var(cor-terciaria);
+    background-color: var(--cor-terciaria);
     position: relative;
     align-items: center;
 }
@@ -31,7 +31,7 @@
     width: 40px;
 }
 
-.cabecalho__lista {
+.cabecalho-lista {
     display: none;
     background-color: var(--branco);
     position: absolute;
@@ -64,18 +64,8 @@
 }
 
 .menu__lista-item {
-    width: 24px;
-    height: 24px;
-}
-
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-    background: var(--cor-pricipal);
-    color: var(--verde);
+    background: var(--cor-principal);
+    color: var(--azul);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
