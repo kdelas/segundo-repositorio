@@ -16,7 +16,9 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
 </head>
 
 <body>
@@ -61,7 +63,8 @@
         </ul>
 
         <div class="container">
-            <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.svg" alt="meus favoritos"></a>
+            <a href="#"><img class="cabecalho-imagem cabecalho__favorito" src="./img/favorito.svg"
+                    alt="meus favoritos"></a>
             <a href="#" class="container__link">
                 <img class="cabecalho-imagem" src="./img/contato.svg" alt="contatos">
                 <p class="container__texto">Fale conosco</p>
@@ -108,9 +111,9 @@
         </div>
     </section>
 
-    <section        >
-        <div        >
-            <img src="./img/ampliação.jpg"   class="img-reforma"      >
+    <section>
+        <div>
+            <img src="./img/ampliação.jpg" class="img-reforma">
         </div>
 
         <div>
@@ -119,6 +122,62 @@
 
         <div></div>
     </section>
+
+    <section class="carrossel">
+
+        <h2> nossos produtos e serviços</h2>
+
+        <div class="carrossel__container">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide">imagem 1</div>
+                    <img src="./img/cerâmica.webp" alt="colocação de ceramica">
+
+                    <div class="swiper-slide">imagem 2</div>
+                    <img src="./img/externa.png" alt="reforma area externa">
+
+                    <div class="swiper-slide">imagem 3</div>
+                    <img src="./img/revestimento.jpg" alt="revestimento de banheiro">
+
+                    <div class="swiper-slide">imagem 4</div>
+                    <img src="./img/contrução.jpg" alt="contrução do zero">
+
+                    <div class="swiper-slide">imagem 5</div>
+                    <img src="./img/inicio.jpg" alt="contrução de lajes">
+
+                    ...
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+                <!-- If we need scrollbar -->
+                <div class="swiper-scrollbar"></div>
+            </div>
+
+        </div>
+
+        <div class="card">
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </section>
+
 
 </body>
 
