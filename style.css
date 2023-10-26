@@ -2,9 +2,14 @@
 @import url(/styles/carrossel.css);
 
  :root{
-    --cor-principal: rgb(255, 255, 255);
-    --cor-secundaria: rgb(72, 212, 247);
-    --cor-terciaria: darkgray;
+
+    --cor-principal: #0013E0;
+    --cor-secundaria:#D500AA;
+    --cor-3:#FF0070;
+    --cor-4:#FF6B44;
+    --cor-5:#FFBA3A;
+    --cor-6:#F9F871;
+    --cor-de-fundo--#FFFFFF;
     --cor-de-escrita: rgb(255, 255, 255);
     --branco:#FFFFFF;
     --azul: #3d89ec;
